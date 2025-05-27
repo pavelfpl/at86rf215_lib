@@ -1,8 +1,8 @@
 # AT86RF215 library for Altera/Intel SocFPGA
 
-This library is highly modified fork of: https://github.com/cariboulabs/cariboulite/tree/main/software/libcariboulite (comming from Raspberry PI)
+This library is highly modified fork of: https://github.com/cariboulabs/cariboulite/tree/main/software/libcariboulite (comming from Raspberry PI)  
 Primary support is for Altera/Intel SocFPGA (Cyclone V SoC, Arria 10, Stratix 10, ...), but it may be used with common Linux spidev and gpiodev devices.
-SocFPGA is factically using common Designware IP cores for both SPI (master) and GPIO devices.
+SocFPGA is factically using common Designware IP cores for both SPI (master) and GPIO devices.  
 
 ## Library features:
 - I/Q mode with TX/RX support, extended support for TX mode
@@ -15,7 +15,7 @@ SocFPGA is factically using common Designware IP cores for both SPI (master) and
 ## How to build library
 
 ```
-git clone 
+git clone https://github.com/pavelfpl/at86rf215_lib
 cd at86rf215_lib
 mkdir buid
 cd build
